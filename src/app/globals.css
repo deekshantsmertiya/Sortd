@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #111111;
+}
+
+body {
+  color: #111111;
+  background: #ffffff;
+  font-family: var(--font-body), Poppins, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar styling & utilities */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth horizontal snap rail */
+.snap-rail {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.snap-item {
+  scroll-snap-align: start;
+}
+
+/* Selection highlight */
+::selection {
+  background-color: #F5C518;
+  color: #111111;
+}
