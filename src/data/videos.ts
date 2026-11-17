@@ -1,0 +1,58 @@
+import { VideoStory } from "@/types";
+
+export const MOCK_VIDEOS: VideoStory[] = [
+  {
+    id: "v1",
+    title: "Behind the Scenes with Dubai's Skydiving Aerial Team",
+    description: "Watch freefall acrobats formation dive over the Palm Jumeirah at 200km/h.",
+    category: "CULTURE",
+    thumbnailUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    duration: "01:45",
+  },
+  {
+    id: "v2",
+    title: "Inside the 24/7 Kitchen Baking 10,000 Rotis an Hour",
+    description: "Satwa's busiest clay ovens never stop spinning.",
+    category: "COMMUNITY",
+    thumbnailUrl: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800",
+    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    duration: "02:10",
+  },
+  {
+    id: "v3",
+    title: "Driving a Restored 1978 Land Cruiser Across Al Qudra Dunes",
+    description: "Emirati classic car collectors preserve Gulf automotive history.",
+    category: "CULTURE",
+    thumbnailUrl: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800",
+    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+    duration: "03:00",
+  },
+  {
+    id: "v4",
+    title: "Exploring Dubai Creek by Night on a Traditional Wooden Dhow",
+    description: "The rhythmic sounds of water, spice docks, and city lights.",
+    category: "CULTURE",
+    thumbnailUrl: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800",
+    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    duration: "01:30",
+  },
+  {
+    id: "v5",
+    title: "How Young Skateboarding Crew Transformed Business Bay Parks",
+    description: "Under the metro bridges, a vibrant community meets every sunset.",
+    category: "COMMUNITY",
+    thumbnailUrl: "https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?w=800",
+    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+    duration: "02:25",
+  },
+  {
+    id: "v6",
+    title: "Secret Rooftop Coffee Roastery in Dubai's Old Textile Souk",
+    description: "Brewing single-origin Ethiopian beans with panoramic views of the abra boats.",
+    category: "CULTURE",
+    thumbnailUrl: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800",
+    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    duration: "01:55",
+  },
+];
